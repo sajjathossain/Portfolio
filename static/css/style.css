@@ -48,6 +48,10 @@ main{
     color: #c6c4c4;
 }
 
+#text{
+    position: fixed;
+}
+
 #someDescription{
     font-size: 18px;
 }
