@@ -1,0 +1,58 @@
+body{
+    background-color: #eeeeee;
+    height: 100vh;
+    width: 100vw;
+}
+
+.navbar {
+    float: left !important;
+    height: 100% !important;
+    width: 15vw !important;
+    display: block !important;
+}
+
+.navbar .navbar-nav{
+    display: block !important;
+}
+
+#logoCard {
+    outline: none !important;
+    border: none !important;
+}
+
+main{
+    /*float: right !important;*/
+    height: 100vh !important;
+    width: 85vw !important;
+}
+
+.hpName {
+    font-size: 52px;
+    font-weight: bold;
+    display: flex;
+    column-gap: 10px;
+}
+
+#homePage {
+
+}
+
+.vrBar {
+    margin-top: 10px;
+    background-color: orangered;
+    height: 58px;
+    width: 8px;
+}
+
+#progLang {
+    color: #c6c4c4;
+}
+
+#someDescription{
+    font-size: 18px;
+}
+
+.navIcons {
+    margin-right: 5px;
+    margin-left: 10px;
+}
