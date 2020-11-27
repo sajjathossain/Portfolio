@@ -5,10 +5,12 @@ let listIndex = 0;
 let currentOutputSize = 0;
 let isIncreasing = true;
 let textOut = " ";
-let output = [ " Programming Languages ",
-    " Frameworks "];
+let output = [
+    " Programming Languages ",
+    " Frameworks & Libraries "
+    ];
 
-function startTyping(handle){
+function startTyping(){
 
     if (textOut.length <= output[listIndex].length && isIncreasing) {
 
