@@ -42,6 +42,7 @@ body{
 main{
     height: 100vh !important;
     width: 85vw !important;
+    float: left !important;
     position: relative;
 }
 
