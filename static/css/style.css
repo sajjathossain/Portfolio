@@ -14,6 +14,15 @@ body{
     width: 15vw !important;
     display: block !important;
     position: fixed !important;
+    border-right: 3px solid orange !important;
+    border-radius: 15px;
+    box-shadow: 5px 0px 5px #4f412b !important;
+}
+
+.navImage {
+    border: 5px solid orange !important;
+    border-radius: 50% !important;
+    box-shadow: 5px 5px 5px #4f412b !important;
 }
 
 .navbar .navbar-nav{

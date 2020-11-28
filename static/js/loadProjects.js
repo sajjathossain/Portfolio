@@ -3,7 +3,6 @@ const projectList = [
     {
         projectName: "Disease Tracker",
         projectDescription: "Created this as a fun project. Used Bootstrap, Vanilla JavaScript",
-        carouselClass: "carousel-item active",
         githubHref: "DiseaseTracker"
 
 
@@ -11,7 +10,6 @@ const projectList = [
     {
         projectName: "Flask Video Downloader",
         projectDescription: "Created this as a fun project. Used Flask, Bootstrap, Youtube-dl",
-        carouselClass: "carousel-item",
         githubHref: "Flask-Video-Downloader"
 
 
@@ -19,7 +17,6 @@ const projectList = [
     {
         projectName: "Calendar Application",
         projectDescription: "This was my Project for SPL Course. Used basic logics here.",
-        carouselClass: "carousel-item",
         githubHref: "Calendar-Application"
 
 
@@ -27,25 +24,28 @@ const projectList = [
     {
         projectName: "Simple JS Calculator",
         projectDescription: "I made this project while i started learning JavaScript to practice my skills.",
-        carouselClass: "carousel-item",
         githubHref: "Simple-JS-Calculator"
 
 
     },
 ];
 
-let projects = "";
 
 document.addEventListener("DOMContentLoaded",() => {
 
+    let projects = "";
     projectList.forEach((pl) =>{
     projects += `
-    <div class="${pl.carouselClass}">
-        <div class="col-md-4 ">
-            <div class="card card-body p-2 border border-warning progCard">
-            <h3 class="text-warning">${pl.projectName}</h3>
-            <p class="p-1 text-light">${pl.projectDescription}</p>
-            <a class="btn btn-outline-warning bg-dark" href="https://www.github.com\\sajjathossain\\${pl.githubHref}">Github</a>
+    <div class="col-md-4 p-2">
+        <div class="card bg-dark border border-warning progCard">
+            <div class="card-body">
+                <h3 class="card-title text-warning">
+                    ${pl.projectName}
+                </h3>
+                <p class="card-text">
+                    ${pl.projectDescription}
+                </p>
+                <a href="https://www.github.com\\sajjathossain\\${pl.githubHref}" class="btn btn-outline-warning bg-dark">Github</a>
             </div>
         </div>
     </div>

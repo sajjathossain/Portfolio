@@ -47,10 +47,10 @@ document.addEventListener('DOMContentLoaded', () => {
     languages.forEach((i) => {
 
     output += `
-    <div class="col-md-3">
-        <div class="card alert alert-warning progCard">
+    <div class="col-md-3 p-2">
+        <div class="card bg-dark border border-warning progCard">
             <div class="card-body">
-                <h3 class="card-title">
+                <h3 class="card-title text-warning">
                 <img src="./static/images/${i.icon}" alt="" class="navIcons" height="40vh" width="40vw">
                     ${i.name}
                 </h3>

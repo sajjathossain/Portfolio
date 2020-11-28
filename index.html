@@ -19,6 +19,8 @@
     <script src="./static/js/loadProjects.js" defer></script>
     <script src="./static/js/loadEduInfo.js" defer></script>
 
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous" defer></script>
+
     <link rel="icon" href="./static/images/dev.svg" />
 </head>
 <body>
@@ -29,7 +31,7 @@
 
     <!--    Navbar Card code starts here!    -->
         <div class="card bg-dark" id="logoCard">
-            <img class="card-img-top rounded-circle card-outline-warning img-responsive img-thumbnail" src="./static/images/s1.jpg" alt="Card image cap">
+            <img class="card-img-top rounded-circle img-responsive border border-warning navImage" src="./static/images/s1.jpg" alt="Card image cap">
             <div class="card-body">
                 <p class="card-text h4 name">Sajjat Hossain</p>
             </div>
@@ -109,28 +111,10 @@
     </div>
 
 
-        <div class="container text-center my-3">
-            <div class="row mx-auto my-auto h-100">
-                <div id="recipeCarousel" class="carousel slide w-100 p-2" data-ride="carousel">
-                    <div class="carousel-inner w-100 p-3 carouselCSS" role="listbox">
 
-                        <div id="showProjects"><!---Tech row starts -->
-                            <!--     Everything here is loaded Dynamically      -->
-                        </div> <!-- Tech Row Ends --->
-                        <!--    Technology card code ends here -->
-
-                    <a class="carousel-control-prev w-auto" href="#recipeCarousel" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon bg-dark border border-dark rounded-circle" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next w-auto" href="#recipeCarousel" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon bg-dark border border-dark rounded-circle" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
-                </div>
-            </div>
-        </div>
-        </div>
+    <div class="row mt-4" id="showProjects"><!---Project card row starts -->
+        <!--     Everything here is loaded Dynamically      -->
+    </div> <!-- Project Card Row Ends --->
 
 <!-- Projects Code Ends From Here! -->
 
@@ -191,7 +175,5 @@
 </main>
 <!--Main section ends here-->
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js" defer></script>
-<script src="./static/js/carouselLoad.js" defer></script>
 </body>
 </html>
