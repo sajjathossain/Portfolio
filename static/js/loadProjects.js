@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
         <div class="card alert alert-warning progCard">
             <div class="card-body">
                 <h3 class="card-title">
-                <img src="../../static/images/${i.icon}" alt="" class="navIcons" height="40vh" width="40vw">
+                <img src="../static/images/${i.icon}" alt="" class="navIcons" height="40vh" width="40vw">
                     ${i.name}
                 </h3>
                 <p class="card-text">

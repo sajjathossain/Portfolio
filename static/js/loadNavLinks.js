@@ -3,22 +3,27 @@ const navs = document.querySelector("#navLinks");
 const links = [
     {
         iconClass : "home",
-        navHref : "/",
+        navHref : "#head",
         LinkName : "Home"
     },
     {
         iconClass : "graduation-cap",
-        navHref : "/qualifications",
+        navHref : "#programmingLanguages",
+        LinkName : "Languages"
+    },
+    {
+        iconClass : "graduation-cap",
+        navHref : "#qualifications",
         LinkName : "Qualifications"
     },
     {
         iconClass : "code",
-        navHref : "/projects",
+        navHref : "#projects",
         LinkName : "Projects"
     },
     {
         iconClass : "commenting",
-        navHref : "/contact",
+        navHref : "#contact",
         LinkName : "Contact Me"
     },
 
