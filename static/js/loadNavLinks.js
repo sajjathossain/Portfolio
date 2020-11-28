@@ -12,14 +12,14 @@ const links = [
         LinkName : "Languages"
     },
     {
-        iconClass : "graduation-cap",
-        navHref : "#qualifications",
-        LinkName : "Qualifications"
-    },
-    {
         iconClass : "code",
         navHref : "#projects",
         LinkName : "Projects"
+    },
+    {
+        iconClass : "graduation-cap",
+        navHref : "#qualifications",
+        LinkName : "Qualifications"
     },
     {
         iconClass : "commenting",
