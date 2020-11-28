@@ -1,7 +1,11 @@
 body{
-    background-color: #eeeeee;
-    height: 100vh;
-    width: 100vw;
+    /*background-color: #161e32 !important;*/
+    height: 100vh !important;
+    width: 100vw !important;
+}
+
+.myNav {
+    /*background-color: #0e1726 !important;*/
 }
 
 .navbar {
@@ -85,9 +89,12 @@ main{
     border-radius: 4px;
     box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
     transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
-    padding: 3px 2px !important;
+    padding: 2px 3px !important;
     cursor: pointer;
-    height: 30vh !important;
+    min-height: 30vh !important;
+    max-height: 30vh !important;
+    min-width: 15vw !important;
+    max-width: 30vw !important;
 }
 
 .progCard:hover{
