@@ -19,7 +19,7 @@ const languages = [
     {
         name : "Java",
         icon : "java.svg",
-        description : "Learned Java in OOP methods. Usually use it learn oop concepts as it offers the best way to learn them. "
+        description : "Learned Java in OOP methods. Usually use it to learn oop concepts as it offers the best way to learn them. "
     },
     {
         name : "C",

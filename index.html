@@ -18,6 +18,7 @@
     <script src="static/js/loadLanguages.js" defer></script>
     <script src="./static/js/loadProjects.js" defer></script>
     <script src="./static/js/loadEduInfo.js" defer></script>
+    <script src="./static/js/contactForm.js" defer></script>
 
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous" defer></script>
 
@@ -162,7 +163,25 @@
             <div class="vrBar bg-warning"></div>
             <div class="name">Contact Me</div>
         </div>
-
+        <div class=" mt-2 ml-5" >
+            <form action="" class="form" id="contact-form">
+                <div class="form-group">
+                    <label for="senderName" class="text-warning">Name : </label>
+                    <input type="text" name="senderName" id="senderName" class="form-control border border-warning bg-dark text-warning p-2" placeholder="Enter Your Name*" required>
+                </div>
+                <div class="form-group">
+                    <label for="senderEmail" class="text-warning">Email : </label>
+                    <input type="email" name="senderEmail" id="senderEmail" class="form-control border border-warning bg-dark text-warning p-2" placeholder="Enter Your Email*" required>
+                </div>
+                <div class="form-group">
+                    <label for="senderBody" class="text-warning">Message : </label>
+                    <textarea cols="10" rows="10" name="senderBody" id="senderBody" class="form-control border border-warning bg-dark text-warning p-2" placeholder="Enter Your Message*" required></textarea>
+                </div>
+                <div class="form-group">
+                    <button id="sendBtn" class="btn btn-outline-warning btn-lg border border-warning">Send 🚀</button>
+                </div>
+            </form>
+        </div>
 <!--   Contact Form Code Ends Here!     -->
 
 

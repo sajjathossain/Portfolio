@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded",() => {
                 <p class="card-text">
                     ${pl.projectDescription}
                 </p>
-                <a href="https://www.github.com\\sajjathossain\\${pl.githubHref}" class="btn btn-outline-warning bg-dark">Github</a>
+                <a href="https://www.github.com\\sajjathossain\\${pl.githubHref}" class="btn btn-dark border border-warning bg-dark">Github</a>
             </div>
         </div>
     </div>
