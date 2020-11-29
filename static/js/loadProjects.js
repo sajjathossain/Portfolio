@@ -1,6 +1,13 @@
 const projectsField = document.getElementById("showProjects");
 const projectList = [
     {
+        projectName: "CRUD Application",
+        projectDescription: "Used Raw PHP and MySql Database. ",
+        githubHref: "CRUD-Application"
+
+
+    },
+    {
         projectName: "Disease Tracker",
         projectDescription: "Created this as a fun project. Used Bootstrap, Vanilla JavaScript",
         githubHref: "DiseaseTracker"
