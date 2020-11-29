@@ -7,7 +7,7 @@ const error = document.querySelector("#error");
 document.addEventListener("DOMContentLoaded",() => {
     sendBTN.addEventListener("click", () => {
 
-        if(senderName.value.length !== "" && senderEmail.value.length !== "" && senderBody.value.length !== ""  ){
+        if(senderName.value.length !== 0 && senderEmail.value.length !== 0 && senderBody.value.length !== 0  ){
             alert("Thank You! Your email was sent!");
             window.location.reload();
         }
