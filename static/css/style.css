@@ -1,5 +1,4 @@
 body{
-    /*background-color: #161e32 !important;*/
     height: 100vh !important;
     width: 100vw !important;
 }
@@ -8,12 +7,18 @@ body{
 .navbar {
     float: left !important;
     height: 100% !important;
-    width: 15vw !important;
+    width: 20vw !important;
     display: block !important;
     position: fixed !important;
     border-right: 3px solid orange !important;
     border-radius: 15px;
     box-shadow: 5px 0px 5px #4f412b !important;
+}
+
+#navLinks {
+    border: none !important;
+    border-left: none !important;
+    margin-left: 3vw !important;
 }
 
 .navImage {
@@ -51,27 +56,24 @@ body{
 
 main{
     height: 100vh !important;
-    width: 85vw !important;
+    width: 80vw !important;
     float: left !important;
     position: relative;
 }
 
 .hpName {
-    font-size: 52px;
+    font-size: 42px;
     font-weight: bold;
     display: flex;
     column-gap: 10px;
     text-decoration: none !important;
 }
 
-#homePage {
-
-}
 
 .vrBar {
     margin-top: 10px;
     background-color: orangered;
-    height: 58px;
+    height: 47px;
     width: 8px;
 }
 
@@ -94,7 +96,7 @@ main{
 .progCard{
     border-radius: 4px;
     box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
-    transition: .4s transform ease-in-out;
+    transition: .2s transform ease-in-out;
     padding: 2px 4px !important;
     cursor: pointer;
     min-height: 30vh !important;
