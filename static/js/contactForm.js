@@ -5,15 +5,11 @@ const senderBody = document.querySelector("#senderBody");
 const error = document.querySelector("#error");
 
 document.addEventListener("DOMContentLoaded",() => {
-    error.style.display = "none";
-    sendBTN.addEventListener("click", (evt) => {
-        if(senderName.value.length <= 0 || senderEmail.value.length <= 0 || senderBody.value.length <= 0){
-            evt.preventDefault();
-            error.style.display = "block";
-            error.innerText = "Please fill up all the required fields!";
-        }else {
-            error.style.display = "none";
+    sendBTN.addEventListener("click", () => {
+
+        if(senderName.value.length !== "" && senderEmail.value.length !== "" && senderBody.value.length !== ""  ){
             alert("Thank You! Your email was sent!");
+            window.location.reload();
         }
     });
 
