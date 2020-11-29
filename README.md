@@ -1,6 +1,6 @@
 <h1 align="center">My Official Portfolio </h1>
 
-<a href="https://sajjathossain.github.io/Portfolio/" align="center">Visit My Page!</a>
+<h3 align="center"><a href="https://sajjathossain.github.io/Portfolio/" >Visit My Page!</a></h3>
 
 ## Technologies used:
 ```
