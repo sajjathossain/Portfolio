@@ -4,7 +4,7 @@ const languages = [
     {
         name : "Python",
         icon : "python.svg",
-        description : "Worked with React.js and Express.js. Two popular js library. I also like js very much for its various abilities like fetching data without refreshing a web page."
+        description : "This is my most favourite language because of it ease of use and easy to understand feature. Also because it's used in many fields. "
     },
     {
         name : "PHP",
