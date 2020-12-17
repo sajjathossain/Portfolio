@@ -1,6 +1,6 @@
 const text = document.getElementById("text");
 
-const timoutTime = 120;
+const timeOutTime = 120;
 let listIndex = 0;
 let currentOutputSize = 0;
 let isIncreasing = true;
@@ -42,7 +42,7 @@ function startTyping(){
     }
 
     clearTimeout(startTyping);
-    setTimeout(startTyping, timoutTime);
+    setTimeout(startTyping, timeOutTime);
 
 }
 

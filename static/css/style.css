@@ -1,6 +1,9 @@
 body{
-    height: 100vh !important;
-    width: 100vw !important;
+    height: 100% !important;
+    width: 100% !important;
+    display: grid !important;
+    grid-template-columns: repeat(1fr 2fr);
+
 }
 .hidden {
     visibility: hidden;
@@ -8,7 +11,7 @@ body{
 }
 
 .navbar {
-    float: left !important;
+    /* float: left !important; */
     height: 100% !important;
     width: 20vw !important;
     display: block !important;
@@ -58,10 +61,11 @@ body{
 }
 
 main{
+    margin-left: 345px !important;
     height: 100vh !important;
-    width: 80vw !important;
-    float: left !important;
-    position: relative;
+    width: 75vw !important;
+    /* float: right !important; */
+    /* position: relative; */
 }
 
 .hpName {
@@ -86,6 +90,11 @@ main{
 
 #text{
     position: absolute;
+    transition: 0.3s ease-in-out;
+}
+
+#text:hover {
+    cursor: pointer;
 }
 
 #someDescription{
@@ -96,10 +105,11 @@ main{
     margin-right: 5px;
     margin-left: 10px;
 }
+
 .progCard{
     border-radius: 4px;
     box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
-    transition: .2s transform ease-in-out;
+    transition: .3s ease-in-out;
     padding: 2px 4px !important;
     cursor: pointer;
     min-height: 30vh !important;
@@ -109,9 +119,9 @@ main{
 }
 
 .progCard:hover{
-    transform: scale(1.05);
+    transform: scale(1.02);
     color: white !important;
-    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6), 0 4px 8px rgba(0,0,0,.06);
 }
 
 .progCard h3{
