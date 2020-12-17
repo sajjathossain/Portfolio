@@ -25,15 +25,18 @@ const languages = [
         name : "C",
         icon : "c.svg",
         description : "This is the first programming language that i learned. Used it to write algorithms and for my programming contests. "
-    },{
+    },
+    {
         name : "Django",
         icon : "django.svg",
         description : "As this framework offers my advanced features so I like it very much. Working with is feels as easy as flask to me."
-    },{
+    },
+    {
         name : "Flask",
         icon : "python.svg",
         description : "Flask is the first framework i learned. It helped me to understand the basics of frameworks. For its ease of use i like use it in my web projects. "
-    },{
+    },
+    {
         name : "React",
         icon : "react.svg",
         description : "First i thought to learn Angular. I learned it because for a beginner reacts learning curve is easier to understand. My plan is to use it in my small SPAs."

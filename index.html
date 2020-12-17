@@ -160,8 +160,8 @@
                     <div class="name">Contact Me</div>
                 </div>
                 <div class=" mt-2 ml-5" >
-                    <form action="" class="form" id="contact-form">
-
+                    <form class="form" id="contact-form" name="contact" method="POST" data-netlify="true">
+                        <input type="hidden" name="form-name" value="contact">
                         <div class="form-group">
                             <label for="senderName" class="text-warning">Name : </label>
                             <input type="text" name="senderName" id="senderName" class="form-control border border-warning bg-dark text-warning p-2" placeholder="Enter Your Name*" required>

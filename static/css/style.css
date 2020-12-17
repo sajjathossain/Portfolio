@@ -2,7 +2,10 @@ body{
     height: 100vh !important;
     width: 100vw !important;
 }
-
+.hidden {
+    visibility: hidden;
+    height: 0;
+}
 
 .navbar {
     float: left !important;
