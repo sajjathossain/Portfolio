@@ -3,8 +3,8 @@ body{
     width: 100% !important;
     display: grid !important;
     grid-template-columns: repeat(1fr 2fr);
-
 }
+
 .hidden {
     visibility: hidden;
     height: 0;
@@ -110,7 +110,7 @@ main{
     border-radius: 4px;
     box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
     transition: .3s ease-in-out;
-    padding: 2px 4px !important;
+    padding: 2px 4px 2px 4px !important;
     cursor: pointer;
     min-height: 30vh !important;
     max-height: 30vh !important;
@@ -119,7 +119,7 @@ main{
 }
 
 .progCard:hover{
-    transform: scale(1.02);
+    transform: scale(0.98);
     color: white !important;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6), 0 4px 8px rgba(0,0,0,.06);
 }
